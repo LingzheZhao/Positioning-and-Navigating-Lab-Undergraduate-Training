@@ -1,0 +1,21 @@
+version: '2'
+services:
+  gitlab:
+    # 使用的镜像
+    image: dorowu/ubuntu-desktop-lxde-vnc:bionic-lxqt
+    hostname: focal.local
+    restart: unless-stopped
+    ports:
+      # 网页端端口号
+      - "20000:80"
+      # ssh端口号
+      - "21520:22"
+      # VNC Viewer端口号
+      - "21521:5900"
+    environment: 
+      - USER=ubuntu
+      - PASSWD=ubuntu
+      - VNC_PASSWORD=mypassword
+      - RESOLUTION=1440x900
+    volumes:
+      - /dev/shm:/dev/shm
