@@ -1,0 +1,14 @@
+version: '2'
+services:
+  rust-dev:
+    image: docker.lzzhao.app:4567/lzzhao/rust-vscode-dev-env/master
+    restart: unless-stopped
+    ports:
+      - "32222:22"
+    environment: 
+      - USER=rust
+      - PASSWORD=tongji
+    command:
+      - bash
+    stdin_open: true
+    tty: true
