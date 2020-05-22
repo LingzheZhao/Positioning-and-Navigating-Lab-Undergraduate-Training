@@ -1,6 +1,6 @@
 version: '2'
 services:
-  dev:
+  web-dev:
     image: docker.lzzhao.app:4567/lzzhao/web-dev-env/master
     volumes:
       - .:/home
