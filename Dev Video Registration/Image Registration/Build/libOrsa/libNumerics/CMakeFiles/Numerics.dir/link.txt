@@ -1,0 +1,2 @@
+/usr/bin/ar qc libNumerics.a  CMakeFiles/Numerics.dir/ccmath_svd.cpp.o CMakeFiles/Numerics.dir/matrix.cpp.o CMakeFiles/Numerics.dir/numerics.cpp.o CMakeFiles/Numerics.dir/vector.cpp.o
+/usr/bin/ranlib libNumerics.a

@@ -1,0 +1,1 @@
+/usr/bin/c++  -O3 -DNDEBUG  -rdynamic CMakeFiles/image_drawing_test.dir/image_drawing_test.cpp.o  -o image_drawing_test libimage.a ../../third_party/CppUnitLite/libCppUnitLite.a -lpng -lz -ljpeg 

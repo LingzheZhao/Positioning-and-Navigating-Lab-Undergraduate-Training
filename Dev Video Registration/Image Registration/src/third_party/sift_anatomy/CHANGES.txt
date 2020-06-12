@@ -1,0 +1,12 @@
+This is a summary of the changes with respect to the original sift_anatomy:
+1. declare sift_free_keypoint in lib_util.h (rationale: possibility to remove some keypoints in a list), see patch.txt
+2. move C files to C++ (rationale: old Microsoft Visual Studio compilers and even recent ones still do not fully support C99)
+3. as a consequence of (2):
+- fix ambiguous calls to log(int), pow(double,float), etc.
+- define xmalloc and xrealloc (lib_util) as templates (avoids having to cast the result from void*)
+4. add a CMakeLists.txt
+5. Enhance with SIFT match when ratio>=1. It means all points in second image at distance < ratio*d (d is best match distance) are also matches. Hence, with ratio=1, all points of first image have one match. 
+
+Still multiple warnings with Visual C++ due to silent casts double/float/int.
+
+Pascal Monasse (pascal.monasse@enpc.fr), April 2020
