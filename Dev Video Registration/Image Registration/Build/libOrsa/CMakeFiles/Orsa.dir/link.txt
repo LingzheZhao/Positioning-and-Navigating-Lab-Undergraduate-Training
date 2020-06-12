@@ -1,0 +1,2 @@
+/usr/bin/ar qc libOrsa.a  CMakeFiles/Orsa.dir/conditioning.cpp.o CMakeFiles/Orsa.dir/model_estimator.cpp.o CMakeFiles/Orsa.dir/homography_model.cpp.o CMakeFiles/Orsa.dir/fundamental_model.cpp.o CMakeFiles/Orsa.dir/sampling.cpp.o CMakeFiles/Orsa.dir/ransac.cpp.o CMakeFiles/Orsa.dir/orsa.cpp.o CMakeFiles/Orsa.dir/eval_model.cpp.o
+/usr/bin/ranlib libOrsa.a

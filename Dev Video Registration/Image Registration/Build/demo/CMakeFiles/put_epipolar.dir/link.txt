@@ -1,0 +1,1 @@
+/usr/bin/c++   -fopenmp -O3 -DNDEBUG  -rdynamic CMakeFiles/put_epipolar.dir/put_epipolar.cpp.o CMakeFiles/put_epipolar.dir/Rect.cpp.o  -o put_epipolar libImage/libimage.a -lpng -lz -ljpeg 

@@ -1,0 +1,1 @@
+/usr/bin/c++  -O3 -DNDEBUG  -rdynamic CMakeFiles/cubicRoots_test.dir/cubicRoots_test.cpp.o  -o cubicRoots_test libNumerics.a ../../third_party/CppUnitLite/libCppUnitLite.a 

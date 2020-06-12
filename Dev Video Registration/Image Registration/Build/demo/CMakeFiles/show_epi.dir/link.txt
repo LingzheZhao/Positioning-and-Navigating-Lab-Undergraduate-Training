@@ -1,0 +1,1 @@
+/usr/bin/c++   -fopenmp -O3 -DNDEBUG  -rdynamic CMakeFiles/show_epi.dir/show_epi.cpp.o CMakeFiles/show_epi.dir/fundamental_graphical_output.cpp.o CMakeFiles/show_epi.dir/graphical_output.cpp.o CMakeFiles/show_epi.dir/Rect.cpp.o  -o show_epi ../libOrsa/libOrsa.a libImage/libimage.a ../third_party/sift_anatomy/libSiftAnatomy.a ../libOrsa/libNumerics/libNumerics.a -lpng -lz -ljpeg 

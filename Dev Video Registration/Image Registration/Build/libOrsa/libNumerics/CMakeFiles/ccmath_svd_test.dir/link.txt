@@ -1,0 +1,1 @@
+/usr/bin/c++  -O3 -DNDEBUG  -rdynamic CMakeFiles/ccmath_svd_test.dir/ccmath_svd_test.cpp.o  -o ccmath_svd_test libNumerics.a ../../third_party/CppUnitLite/libCppUnitLite.a 
